@@ -18,7 +18,7 @@ public class TwoSum {
         int nums[]=new int[]{2,7,11,15,23};
         int target= 13;
         Integer sum []= twoSum(nums,target);
-        System.out.println("0:"+sum[0]+";"+sum[1]);
+        System.out.println("index:"+sum[0]+";"+sum[1]);
     }
 
     public static Integer [] twoSum(int a [],int target){
